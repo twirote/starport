@@ -38,6 +38,7 @@ The `config.yml` file generated in your blockchain folder uses key-value pairs t
   - [`init.config`](#initconfig)
 
   - [`init.app`](#initapp)
+
   - [`init.keyring-backend`](#initkeyring-backend)
 
     - [Example](#example-5)
@@ -45,11 +46,12 @@ The `config.yml` file generated in your blockchain folder uses key-value pairs t
   - [`host`](#host)
 
   - [Example](#example-6)
+
   - [`genesis`](#genesis)
 
 <!-- /TOC -->
 
- You can add these parameters to the config.yaml file to configure your blockchain.
+ Add these parameters to the `config.yml` file to configure your blockchain.
 
 ## `accounts`
 
