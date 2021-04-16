@@ -1,4 +1,9 @@
-# Genesis overwrites for development
+---
+title: 3 Genesis Overwrites for Development
+description: Test different scenarios after the blockchain is created.
+---
+
+# Genesis Overwrites for Development
 
 The `genesis.json` file for the new blockchain is automatically created from the `config.yml` file.
 

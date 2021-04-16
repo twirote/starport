@@ -1,6 +1,11 @@
+---
+title: Protocol Buffer Files Overview
+description: The data structures used by Cosmos SDK modules.
+---
+
 # Protocol Buffer Files Overview
 
-Protocol buffer files define the data structures used by Cosmos SDK modules. 
+Protocol buffer files define the data structures used by Cosmos SDK modules.
 
 Inside the `proto` directory, a directory for each custom module contains `query.proto`, `tx.proto`, `genesis.proto`, and other files.
 

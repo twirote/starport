@@ -1,3 +1,8 @@
+---
+title: 5 Message Scaffold
+description: Generate and modify message files and directories.
+---
+
 # Message Scaffold
 
 Cosmos SDK messages modify the state of a blockchain. Messages are bundled into transactions, broadcasted transactions are bundled into blocks, and blocks make a blockchain.
@@ -12,20 +17,20 @@ starport message [name] [field1] [field2] ... [flags]
 
 The following files and directories are created and modified by scaffolding:
 
-* `proto`: the message type.
-* `x/module_name/keeper`: the gRPC message server.
-* `x/module_name/types`: message type definitions and keys
+- `proto`: the message type.
+- `x/module_name/keeper`: the gRPC message server.
+- `x/module_name/types`: message type definitions and keys
 - `x/module_name/client/cli`: the CLI used for broadcasting a transaction with the message.
 
 All flags are optional.
 
 `--desc`
 
-  The description of the CLI command that broadcasts a transaction with a message.
+The description of the CLI command that broadcasts a transaction with a message.
 
 `--response`
 
-  Comma-separated list (no spaces) of fields that describe the response fields of the message. 
+Comma-separated list (no spaces) of fields that describe the response fields of the message.
 
 ## Example
 

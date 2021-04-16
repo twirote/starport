@@ -1,3 +1,8 @@
+---
+title: 1 Scaffold a Blockchain
+description: Generate code to create a blockchain from scratch.
+---
+
 # Scaffold a Blockchain
 
 The project directory of any Cosmos SDK blockchain contains many directories, source code files, configuration files, scripts, etc. Some of these files implement custom logic and are very specific to a particular project. Other files, however, are common between different Cosmos SDK projects and act as wiring between different parts of the project. Starport CLI automatically generates this common (boilerplate) code and helps in scaffolding custom functionality, so that developers can focus on application-specific logic.
@@ -10,7 +15,7 @@ To create a blockchain from scratch, run the following command:
 starport app github.com/hello/planet
 ```
 
-This command creates a directory called `planet` that contains all of the files for your project. 
+This command creates a directory called `planet` that contains all of the files for your project.
 
 - _github.com/hello/planet_ is used for the Go module path. A git repository is initialized locally.
 

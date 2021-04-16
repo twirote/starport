@@ -1,3 +1,8 @@
+---
+title: 2 Install Starport
+description: Steps to install Starport on your local computer.
+---
+
 # Install Starport
 
 You can run Starport in a web-based Gitpod IDE or you can install Starport on your local computer.
@@ -11,7 +16,6 @@ Local Starport installation requires the follow software be installed and runnin
   Make sure that your `$PATH` includes `$HOME/go/bin` with `export PATH=$PATH:$HOME/go/bin`.
 
 - [Node.js >=12.19.0](https://nodejs.org/)
-
 
 ## Installing Starport with cURL
 
