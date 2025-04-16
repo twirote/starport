@@ -1,0 +1,23 @@
+name: Black Duck Scan
+
+on:
+  push:
+    branches: [ develop ]
+  pull_request:
+    branches: [ develop ]
+
+jobs:
+  scan:
+    name: Run Black Duck SCA via Synopsys Detect
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Run Synopsys Detect
+      uses: synopsys-sig/synopsys-action@v1
+      with:
+        blackduck_token: ${{ secrets.POLARIS_ACCESSTOKEN }}
+        blackduck_url: ${{ secrets.POLARIS_SERVERURL }}
+        detect_scan_type: 'SIGNATURE'
